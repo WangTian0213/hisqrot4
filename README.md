@@ -1,15 +1,3 @@
----
-license: apache-2.0
-pipeline_tag: text-to-video
-tags:
-  - quantization
-  - post-training-quantization
-  - text-to-video
-  - wan2.2
-  - fp4
-  - w4a4
----
-
 # HiSQRot4
 
 **HiSQRot4: SmoothQuant-Rotation HiFloat4 PTQ for W4A4 Text-to-Video Diffusion Models**
