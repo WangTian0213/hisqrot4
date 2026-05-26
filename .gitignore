@@ -1,0 +1,40 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.python-version
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+*.swp
+.ipynb_checkpoints/
+.cache/
+**/.cache/
+
+# Runtime outputs
+video_output/
+eval_output/
+state_quant/
+state_eval/
+logs/
+nohup.out
+*.log
+vbench/
+wan2.2/output/
+wan2.2/examples/
+
+# Large model weights and prepared quantized artifacts are hosted on Hugging Face.
+# Keep small configs, tokenizers, index files, and manifests in Git.
+models/Wan2.2-T2V-A14B/**/*.safetensors
+models/Wan2.2-T2V-A14B/*.pth
+artifacts/**/prepared*.pt
+artifacts/**/calibration*.pt
+
+# Build products
+build/
+dist/
+*.egg-info/
+*.so

@@ -1,0 +1,332 @@
+[
+  {
+    "id": "mm_000631",
+    "prompt": "A talk show setting with a man and a woman seated at a desk. The man is dressed in a formal suit and tie, sitting behind a desk with a microphone in front of him. He appears to be hosting the show, as indicated by his attire and the presence of a microphone. The woman is dressed in a colorful, patterned dress and is holding a piece of paper, suggesting she might be a guest or a co-host. She is seated across from the man, engaging in conversation. The background of the scene includes a cityscape with illuminated buildings, indicating that the show is taking place in a metropolitan area. The lighting is bright, typical of a studio setting, and the overall atmosphere is professional and lively, with both individuals appearing to be in a friendly and conversational mood. Throughout the video, the man and the woman are seen speaking to each other, with the man occasionally gesturing with his hands. The woman holds up the paper, possibly to read from it or to show something on it. The interaction between the two suggests a friendly and engaging dialogue, typical of a talk show format. The setting, attire, and overall ambiance indicate a well-produced television show, likely a late-night talk show given the formal yet relaxed atmosphere.",
+    "num_frames": 69,
+    "fps": 29.970029830932617,
+    "resolution": {
+      "height": 720,
+      "width": 1280
+    },
+    "path": "videos/MOQrHGpgzbQ_segment_1.mp4"
+  },
+  {
+    "id": "mm_000941",
+    "prompt": "A scene with two men in what appears to be an indoor setting, possibly an office or a meeting room. The man in the foreground is wearing a dark blue coat and has short, light brown hair. He is speaking with an animated expression, suggesting he is in the middle of a conversation or argument. The man in the background is partially visible, with only the side of his face and part of his head showing. He is wearing a light-colored shirt and has short, dark hair. The background is blurred, but it appears to be an office environment with neutral-colored walls and some furniture visible. The lighting is soft, indicating an indoor setting with artificial light. The overall mood of the scene seems to be serious or intense, given the expressions and body language of the individuals.",
+    "num_frames": 111,
+    "fps": 23.976024627685547,
+    "resolution": {
+      "height": 720,
+      "width": 1280
+    },
+    "path": "videos/sI_M0OhCqhQ_segment_2.mp4"
+  },
+  {
+    "id": "mm_000798",
+    "prompt": "A man sitting in the back seat of a moving vehicle. He appears to be in a state of contemplation or concern, with his eyes focused forward. The background shows a blurred landscape, suggesting that the vehicle is in motion. The man is wearing a dark-colored jacket, and the interior of the car is dimly lit, with a window that reveals a hazy, possibly rural or desert-like environment outside. The camera remains stationary, capturing the man's face and the passing scenery.",
+    "num_frames": 63,
+    "fps": 23.976024627685547,
+    "resolution": {
+      "height": 720,
+      "width": 1280
+    },
+    "path": "videos/yuNgzOQO7vU_segment_16.mp4"
+  },
+  {
+    "id": "mm_000497",
+    "prompt": "A man standing on a stage, addressing an audience. He is dressed in a light-colored shirt and dark pants, and he appears to be speaking or presenting. The stage is dimly lit, with a spotlight focused on the speaker, creating a dramatic effect. The audience is seated in rows of chairs, and they are facing the speaker, indicating that they are listening to his presentation. The setting suggests a formal event, possibly a conference or seminar. The background is dark, which helps to emphasize the speaker and the audience. The overall atmosphere is serious and focused, with the speaker appearing to be engaged in delivering his message.",
+    "num_frames": 113,
+    "fps": 25.0,
+    "resolution": {
+      "height": 720,
+      "width": 1280
+    },
+    "path": "videos/a8Xnu5RgNjc_segment_4.mp4"
+  },
+  {
+    "id": "mm_000925",
+    "prompt": "A man in a kitchen setting, engaged in cooking. He is wearing a casual t-shirt with a humorous slogan and glasses. The kitchen has a modern design with exposed brick walls, and various kitchen appliances and utensils are visible in the background, including a microwave, a coffee maker, and several pots and pans on the stove. The man is standing at a wooden countertop, which has a few items on it, including a yellow container, a glass bowl, and a bottle of oil. He is holding a metal pot and appears to be pouring its contents into a glass bowl. The man is smiling and seems to be enjoying the process, possibly preparing a meal. The overall atmosphere is casual and homey, with natural light illuminating the space.",
+    "num_frames": 97,
+    "fps": 25.0,
+    "resolution": {
+      "height": 720,
+      "width": 1280
+    },
+    "path": "videos/wDdfGQbqqCo_segment_13.mp4"
+  },
+  {
+    "id": "mm_000370",
+    "prompt": "A man standing next to a classic blue muscle car, which appears to be a Chevrolet Camaro. The car is parked in front of a large, industrial-looking building with green doors. The man is dressed in a black shirt and beige pants, and he is gesturing towards the car while speaking. The car itself is a vibrant blue with white racing stripes running along the hood and sides. The wheels are also blue, matching the body of the car. The man seems to be explaining something about the car, possibly its features or history. The setting suggests that the video might be taking place in a car dealership or a similar environment. The camera remains stationary, focusing on the man and the car throughout the video.",
+    "num_frames": 355,
+    "fps": 29.970029830932617,
+    "resolution": {
+      "height": 720,
+      "width": 1280
+    },
+    "path": "videos/23ZiGwdLm08_segment_2.mp4"
+  },
+  {
+    "id": "mm_000597",
+    "prompt": "A young girl with long, wavy hair that has blonde highlights. She is wearing a dark-colored top and is standing against a plain, light-colored background. The girl is smiling and appears to be speaking or interacting with someone off-camera. Her facial expressions and body language suggest she is engaged and possibly excited. The lighting is soft and even, highlighting her features without creating harsh shadows. The overall setting seems to be indoors, possibly in a room with minimal decor. The camera remains stationary throughout the video, focusing on the girl as she speaks.",
+    "num_frames": 299,
+    "fps": 29.970029830932617,
+    "resolution": {
+      "height": 720,
+      "width": 1280
+    },
+    "path": "videos/fqV4_N80h_A_segment_34.mp4"
+  },
+  {
+    "id": "mm_000721",
+    "prompt": "A young boy with curly hair, wearing a red and black jacket. He is standing in a dimly lit environment, possibly outdoors at night, as suggested by the dark background and the presence of a light source illuminating his face. The boy appears to be speaking or making a facial expression, possibly smiling or looking off into the distance. The lighting highlights his facial features and creates a contrast with the darker surroundings. The overall mood of the video seems to be calm and serene, with the boy being the central focus.",
+    "num_frames": 111,
+    "fps": 29.970029830932617,
+    "resolution": {
+      "height": 720,
+      "width": 1280
+    },
+    "path": "videos/3xymhAtsy2A_segment_46.mp4"
+  },
+  {
+    "id": "mm_000054",
+    "prompt": "A lively scene in a small town. A red fire truck with blue lights and sirens is driving down a narrow street, accompanied by a group of firefighters. The firefighters are dressed in their typical uniforms and are actively engaged in their duties. The fire truck is moving towards a small shop with a green facade and a sign that reads \"The Toy Shop.\"  On the sidewalk, there is a group of people, including children, who appear to be watching the fire truck pass by. The people are dressed in casual clothing, and some of them are holding bags or backpacks. The street is lined with buildings that have a quaint, old-world charm, with stone walls and traditional architecture. As the fire truck passes by, the firefighters wave to the onlookers, and the children wave back. The scene is filled with a sense of community and urgency, as the firefighters are likely responding to an emergency. The overall atmosphere is one of action and teamwork, with the fire truck and firefighters being the central focus of the video.",
+    "num_frames": 127,
+    "fps": 29.970029830932617,
+    "resolution": {
+      "height": 720,
+      "width": 1280
+    },
+    "path": "videos/qe1fOWDRypo_segment_206.mp4"
+  },
+  {
+    "id": "mm_000427",
+    "prompt": "A woman with long, wavy blonde hair seated at a table in what appears to be a studio setting. She is wearing a sleeveless top with a patterned design. In front of her is a microphone, which she is holding close to her mouth, suggesting she is speaking or singing. The background includes a mix of warm and cool lighting, with red and blue hues, and some equipment visible, indicating a professional recording environment. The woman's expression is one of concentration or engagement, and she appears to be in the middle of a conversation or performance. The overall atmosphere is one of a live or recorded broadcast, possibly a radio show or a television segment.",
+    "num_frames": 77,
+    "fps": 29.970029830932617,
+    "resolution": {
+      "height": 720,
+      "width": 1280
+    },
+    "path": "videos/bFlbol3V120_segment_3.mp4"
+  },
+  {
+    "id": "mm_000057",
+    "prompt": "A man sitting on a rocky ledge near a waterfall. He is wearing a dark shirt and light-colored pants, and he appears to be taking a photograph or video of the waterfall. The waterfall cascades down a series of rocks, creating a small pool at the base. The surrounding area is lush with greenery, indicating a natural, possibly tropical, environment. The man is crouched down, using a camera or smartphone to capture the scene. The camera remains stationary, focusing on the man and the waterfall, providing a clear view of the interaction between the man and the natural landscape.",
+    "num_frames": 131,
+    "fps": 29.970029830932617,
+    "resolution": {
+      "height": 720,
+      "width": 1280
+    },
+    "path": "videos/ErI6n2BiBLw_segment_28.mp4"
+  },
+  {
+    "id": "mm_000265",
+    "prompt": "A dental examination scene. A dentist, wearing a white coat, mask, and gloves, is examining a patient's teeth. The patient, seated in a dental chair, has her mouth open wide, exposing her teeth and gums. The dentist is holding a dental mirror and a probe, which he uses to inspect the patient's teeth and gums. The dental office has a clean, clinical appearance with light-colored walls and a green chair cover on the patient. The dentist appears to be focused on his examination, while the patient remains cooperative and seated calmly. The overall setting suggests a professional and hygienic environment typical of a dental clinic.",
+    "num_frames": 113,
+    "fps": 29.970029830932617,
+    "resolution": {
+      "height": 720,
+      "width": 1280
+    },
+    "path": "videos/sEjsqTqiHOg_segment_12.mp4"
+  },
+  {
+    "id": "mm_000773",
+    "prompt": "A serene nighttime scene by the ocean. A person is seen crouching on a rocky shore, adjusting a camera mounted on a tripod. The individual is dressed in a light-colored jacket and appears to be focused on capturing a photograph. The camera is pointed towards the ocean, which is visible in the background, with waves gently crashing against the shore. The sky is dark, indicating it is either dusk or dawn, and the lighting suggests it is not fully illuminated by the sun. The person's silhouette is clearly visible against the backdrop of the ocean and sky. The camera remains steady, capturing the person's actions as they adjust the camera settings. The overall atmosphere of the video is calm and peaceful, with the sound of the waves providing a natural soundtrack.",
+    "num_frames": 265,
+    "fps": 25.0,
+    "resolution": {
+      "height": 720,
+      "width": 1280
+    },
+    "path": "videos/Kpu2jUF8hpw_segment_55.mp4"
+  },
+  {
+    "id": "mm_000186",
+    "prompt": "A close-up shot of a plush toy with glowing blue eyes and a circular red design on its chest. The toy has a furry texture and appears to be sitting or being held. To the left of the frame, a person is partially visible, wearing a suit and tie, and seems to be speaking or reacting to the toy. The background is dimly lit, creating a moody atmosphere. The person's face is not fully visible, but their mouth is open, suggesting they are in the middle of speaking. The scene has a mysterious and slightly eerie feel to it, possibly indicating a narrative or dramatic context.",
+    "num_frames": 81,
+    "fps": 30.0,
+    "resolution": {
+      "height": 720,
+      "width": 1280
+    },
+    "path": "videos/eNT_DzCGBFA_segment_47.mp4"
+  },
+  {
+    "id": "mm_000467",
+    "prompt": "A woman in a gym environment. She is wearing a bright yellow tank top and appears to be engaged in a workout routine. The gym is well-equipped with various exercise machines and weights. The woman is seen lifting a barbell, performing a weightlifting exercise. She is focused on her form and technique, ensuring proper execution of the exercise. The gym is spacious, with ample lighting, and the equipment is organized neatly. The background includes other gym equipment, such as treadmills and stationary bikes, indicating a well-maintained and functional fitness facility. The woman's attire and the gym's layout suggest a professional or semi-professional setting, possibly a personal training session or a group class.",
+    "num_frames": 203,
+    "fps": 23.976024627685547,
+    "resolution": {
+      "height": 720,
+      "width": 1280
+    },
+    "path": "videos/sF09UFUO1Ek_segment_7.mp4"
+  },
+  {
+    "id": "mm_000790",
+    "prompt": "Two individuals seated at a table against a solid red background. The person on the left is a man with short, light brown hair and a light stubble. He is wearing a dark purple shirt and has his hands clasped together on the table. The person on the right is a woman with long, dark brown hair. She is wearing a plaid shirt and appears to be gesturing with her right hand while speaking. The woman seems to be in the middle of a conversation, possibly explaining something, as she uses her hand to emphasize her point. The man listens attentively, with a neutral expression on his face. The setting is simple and focused, with no additional objects or decorations visible in the background. The camera remains stationary throughout the video, providing a clear view of the two individuals and their interaction.",
+    "num_frames": 129,
+    "fps": 23.976024627685547,
+    "resolution": {
+      "height": 720,
+      "width": 1280
+    },
+    "path": "videos/BQBMQg2D6bg_segment_9.mp4"
+  },
+  {
+    "id": "mm_000175",
+    "prompt": "A woman in a white lab coat standing in front of a screen displaying a periodic table and a molecular structure. She appears to be giving a presentation or lecture, gesturing with her hands as she speaks. The background includes a large screen with various scientific diagrams and elements, suggesting a scientific or educational context. The woman is wearing glasses and has a confident demeanor, indicating she is likely an expert in the field. The molecular structure on the screen is a simplified representation of a molecule, with different colors indicating different atoms or parts of the molecule. The overall setting suggests a professional environment, possibly a laboratory or a classroom.",
+    "num_frames": 89,
+    "fps": 23.976024627685547,
+    "resolution": {
+      "height": 720,
+      "width": 1280
+    },
+    "path": "videos/PJHB-TJ2G7o_segment_8.mp4"
+  },
+  {
+    "id": "mm_000151",
+    "prompt": "A close-up of a person applying makeup to their eyelids. The individual is holding a small mirror and using a black eyeliner to carefully line their eyes. The person has long, dark hair and is wearing a pair of gold earrings. The background appears to be indoors, with a cushioned surface visible behind the person. The lighting is soft, highlighting the makeup application process. The person's focus is on the task at hand, ensuring precise application of the eyeliner.",
+    "num_frames": 83,
+    "fps": 29.970029830932617,
+    "resolution": {
+      "height": 720,
+      "width": 1280
+    },
+    "path": "videos/jNDDYxE7R8E_segment_9.mp4"
+  },
+  {
+    "id": "mm_000742",
+    "prompt": "A close-up of a character from a video game. The character has a muscular build and is wearing armor with a mix of gold and dark colors. The armor includes shoulder guards and a chest plate. The character's hair is long and dark, and it falls over the shoulders. The background appears to be a stone wall, suggesting an indoor or dungeon-like setting. The character's expression is serious and intense, with furrowed brows and a stern look. The lighting is focused on the character's face, highlighting the details of the armor and the character's features. The overall tone of the video is dramatic and intense, typical of action or fantasy video games.",
+    "num_frames": 69,
+    "fps": 29.970029830932617,
+    "resolution": {
+      "height": 720,
+      "width": 1280
+    },
+    "path": "videos/qeDJqPpa7yg_segment_4.mp4"
+  },
+  {
+    "id": "mm_000114",
+    "prompt": "A scene in a modern, well-lit room with a large window that offers a panoramic view of a cityscape with tall buildings. The room is furnished with a bed and a chair. A woman is seated on the bed, wearing a red and white striped shirt and shorts. She appears to be engaged in a conversation or interaction with a man standing behind her. The man is dressed in a white shirt and white pants, and he is gesturing with his hands, possibly explaining something or emphasizing a point. The lighting in the room is bright, suggesting it is daytime. The overall atmosphere seems to be one of casual, possibly intimate, interaction between the two individuals.",
+    "num_frames": 63,
+    "fps": 29.970029830932617,
+    "resolution": {
+      "height": 720,
+      "width": 1280
+    },
+    "path": "videos/GeAZdp5sj9Q_segment_40.mp4"
+  },
+  {
+    "id": "mm_000429",
+    "prompt": "A close-up shot of a person applying lip gloss. The individual has long, wavy brown hair and is wearing light makeup, including mascara and a subtle lip color. The background is softly blurred, suggesting an indoor setting with natural light coming from a window. The person is holding a lip gloss applicator and gently applying the product to their lips, starting from the center and moving outward. The focus remains on the person's face, particularly the lips and eyes, as they apply the gloss. The overall scene is calm and focused on the act of applying makeup.",
+    "num_frames": 171,
+    "fps": 23.976024627685547,
+    "resolution": {
+      "height": 720,
+      "width": 1280
+    },
+    "path": "videos/WPefjt8Ppug_segment_10.mp4"
+  },
+  {
+    "id": "mm_000966",
+    "prompt": "A man standing in a public square, likely in a historic European city, given the architectural style of the buildings and the presence of a tall bell tower in the background. The man is wearing a red and white checkered shirt, gray pants, and glasses. He appears to be engaged in a conversation or presentation, gesturing with his hands as he speaks. The square is bustling with people, indicating it is a popular tourist destination. The weather seems overcast, as the lighting is soft and there are no strong shadows. The man's facial expression suggests he is explaining something with enthusiasm or importance. The background includes a large, ornate building with columns and a dome, typical of Renaissance architecture. The bell tower, with its pointed spire, rises prominently in the center of the square.",
+    "num_frames": 75,
+    "fps": 25.0,
+    "resolution": {
+      "height": 720,
+      "width": 1280
+    },
+    "path": "videos/Xiuce2-837Y_segment_69.mp4"
+  },
+  {
+    "id": "mm_000019",
+    "prompt": "A woman standing in a room that appears to be a home office or a personal workspace. She is holding a pink bottle, possibly a hair care product, and is speaking to the camera. The room has a desk with a computer setup, shelves filled with various items, and a bulletin board on the wall. The woman has long, wavy blonde hair and is wearing a green top. The background includes a zebra-patterned rug on the floor and a variety of personal items and decorations. The lighting is bright, suggesting the room is well-lit, possibly by natural light. The woman's expression and gestures indicate she is in the middle of a conversation or presentation.",
+    "num_frames": 67,
+    "fps": 29.970029830932617,
+    "resolution": {
+      "height": 720,
+      "width": 1280
+    },
+    "path": "videos/cAew3DCcl5E_segment_3.mp4"
+  },
+  {
+    "id": "mm_000190",
+    "prompt": "Two individuals engaged in a conversation. The setting appears to be indoors, possibly in a car dealership or a similar environment, as suggested by the presence of a car in the background. The individuals are seated, facing each other, and seem to be discussing something. The person on the left is wearing a blue shirt and has short hair, while the person on the right is wearing a black cap and a dark-colored shirt. The background includes a window with a view of greenery outside, indicating that the location is likely on the ground floor of a building. The lighting is bright, suggesting daytime. There are no significant camera movements detected in the video; it remains focused on the two individuals throughout.",
+    "num_frames": 61,
+    "fps": 23.976024627685547,
+    "resolution": {
+      "height": 720,
+      "width": 1280
+    },
+    "path": "videos/IZuJKfiU7YU_segment_14.mp4"
+  },
+  {
+    "id": "mm_000415",
+    "prompt": "A woman seated on a white couch, holding a green object with a floral pattern. She is wearing a teal sweater with a white collar and a watch on her left wrist. The background features a large, colorful mural of a person in a dynamic pose, with a mix of blue and green hues. The woman appears to be engaged in a conversation or presentation, gesturing with her hands as she speaks. The lighting in the room is bright, and the overall atmosphere seems casual and relaxed. The woman's expression suggests she is explaining something, possibly related to the green object she is holding. The video captures a moment of interaction, with the woman's body language indicating she is actively communicating.",
+    "num_frames": 195,
+    "fps": 50.0,
+    "resolution": {
+      "height": 720,
+      "width": 1280
+    },
+    "path": "videos/WNW1qzf4qbk_segment_3.mp4"
+  },
+  {
+    "id": "mm_000590",
+    "prompt": "A scene inside a spa or wellness center. A man and a woman are standing in a room with wooden doors and a wooden floor. The man is wearing a white robe and appears to be in a relaxed state, possibly after a massage or other spa treatment. He is gesturing with his hand, possibly explaining something or giving directions. The woman is dressed in a dark-colored outfit and is standing beside him, listening attentively. The setting suggests a calm and serene environment, typical of a spa or wellness center. The lighting is soft, contributing to the tranquil atmosphere.",
+    "num_frames": 169,
+    "fps": 29.970029830932617,
+    "resolution": {
+      "height": 720,
+      "width": 1280
+    },
+    "path": "videos/Bc6_EpKCez8_segment_19.mp4"
+  },
+  {
+    "id": "mm_000667",
+    "prompt": "Two women standing in a kitchen, engaged in a conversation while preparing food. They are standing in front of a countertop with a baking tray in front of them. The woman on the left is wearing a gray long-sleeve shirt and appears to be gesturing with her hands as she speaks. The woman on the right is wearing a gray t-shirt with a graphic design and is also gesturing with her hands.  In the background, there is a refrigerator with a striped towel hanging on it, and a microwave oven is visible on the countertop. The kitchen has a modern design with white cabinets and a stainless steel refrigerator. The women seem to be in the middle of a cooking process, possibly discussing the steps or ingredients involved in the recipe they are preparing. The overall atmosphere is casual and friendly, suggesting a relaxed cooking session between friends or family members.",
+    "num_frames": 371,
+    "fps": 29.970029830932617,
+    "resolution": {
+      "height": 720,
+      "width": 1280
+    },
+    "path": "videos/1QHCGGCqMQU_segment_13.mp4"
+  },
+  {
+    "id": "mm_000764",
+    "prompt": "A man standing outdoors in what appears to be a busy urban area. He is holding a blue and orange object, which he brings to his mouth and appears to be eating or tasting it. The man is wearing a blue and white checkered shirt and has a beard. In the background, there are several people walking by, and a building with a sign that includes a Wi-Fi symbol and some text is visible. The setting suggests a lively street scene with various activities taking place around the man. The camera remains stationary, focusing on the man as he engages with the object in his hand.",
+    "num_frames": 79,
+    "fps": 30.0,
+    "resolution": {
+      "height": 720,
+      "width": 1280
+    },
+    "path": "videos/E_T-30mjDCg_segment_7.mp4"
+  },
+  {
+    "id": "mm_000222",
+    "prompt": "A young boy lying on the ground in what appears to be a dimly lit room. He is dressed in a plaid shirt and seems to be in a state of distress or discomfort, as he is holding his stomach. The background is somewhat blurred but shows a cluttered environment with various items scattered around, including what looks like a bed or a pile of clothes. The lighting is low, creating a somber atmosphere. The boy's expression suggests he is in pain or experiencing some form of discomfort. There are no other visible characters or animals in the scene. The camera remains stationary, focusing on the boy as he lies on the ground.",
+    "num_frames": 69,
+    "fps": 29.970029830932617,
+    "resolution": {
+      "height": 720,
+      "width": 1280
+    },
+    "path": "videos/eNIti8h_1Xs_segment_15.mp4"
+  },
+  {
+    "id": "mm_000587",
+    "prompt": "A vintage scene set in what appears to be a classic car showroom or garage. The setting is monochromatic, suggesting an old-fashioned or historical context. In the foreground, a man is seated in a classic, open-top sports car, which has a sleek design with vertical lines and a prominent front grille. The car is parked among several other classic vehicles, each with distinct designs and styles, indicating a collection of vintage automobiles. The background shows a busy environment with people walking around, possibly staff or visitors, and the cars are arranged in a way that suggests a showroom or exhibition space. The overall atmosphere is one of nostalgia and appreciation for classic automotive design.",
+    "num_frames": 87,
+    "fps": 23.976024627685547,
+    "resolution": {
+      "height": 720,
+      "width": 1280
+    },
+    "path": "videos/Utx_PAv4D88_segment_57.mp4"
+  }
+]

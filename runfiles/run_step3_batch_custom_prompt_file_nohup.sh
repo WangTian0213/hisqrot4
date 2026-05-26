@@ -1,0 +1,101 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
+
+LOG_DIR="${LOG_DIR:-${PROJECT_ROOT}/logs}"
+mkdir -p "${LOG_DIR}"
+
+QTYPE="${QTYPE:-hifx4}"
+ART_ROOT="${ART_ROOT:-${PROJECT_ROOT}/state_quant/hif4_ptq}"
+CKPT_DIR="${CKPT_DIR:-${PROJECT_ROOT}/models/Wan2.2-T2V-A14B}"
+PROMPT_FILE="${PROMPT_FILE:-${PROJECT_ROOT}/data/prompts/OpenS2V-5M_to_mm_vbench_30.json}"
+FIRST_N="${FIRST_N:-}"
+RUN_TS="${RUN_TS:-$(date +%Y%m%d_%H%M%S)}"
+OUT_FOLDER="${OUT_FOLDER:-}"
+if [[ -n "${OUT_FOLDER}" ]]; then
+  if [[ "${OUT_FOLDER}" = /* ]]; then
+    OUT_DIR="${OUT_FOLDER}"
+  else
+    OUT_DIR="${PROJECT_ROOT}/${OUT_FOLDER}"
+  fi
+  OUT_SUBDIR="$(basename "${OUT_DIR}")"
+elif [[ -n "${OUT_SUBDIR:-}" ]]; then
+  OUT_SUBDIR="${OUT_SUBDIR}"
+  OUT_DIR="${PROJECT_ROOT}/video_output/${QTYPE}/${OUT_SUBDIR}"
+else
+  PROMPT_BASENAME="$(basename "${PROMPT_FILE}")"
+  PROMPT_STEM="${PROMPT_BASENAME%.*}"
+  SAFE_PROMPT_STEM="$(printf '%s' "${PROMPT_STEM}" | tr '/ ' '__')"
+  OUT_SUBDIR="${SAFE_PROMPT_STEM}_${RUN_TS}"
+  OUT_DIR="${PROJECT_ROOT}/video_output/${QTYPE}/${OUT_SUBDIR}"
+fi
+GPU_COUNT="${GPU_COUNT:-}"
+CUDA_DEVICES="${CUDA_DEVICES:-}"
+RESUME="${RESUME:-1}"
+INFER_ENGINE="${INFER_ENGINE:-python}"
+OFFLOAD_MODEL="${OFFLOAD_MODEL:-true}"
+SAMPLE_STEPS="${SAMPLE_STEPS:-40}"
+ACT_QUANT_MODE="${ACT_QUANT_MODE:-lookup}"
+FRAME_NUM="${FRAME_NUM:-61}"
+NODE_SHARDS="${NODE_SHARDS:-1}"
+NODE_SHARD_IDX="${NODE_SHARD_IDX:-0}"
+PYTORCH_CUDA_ALLOC_CONF_VALUE="${PYTORCH_CUDA_ALLOC_CONF_VALUE:-expandable_segments:True}"
+AUTO_VBENCH="${AUTO_VBENCH:-0}"
+EVAL_RESUME="${EVAL_RESUME:-1}"
+EVAL_EXPECTED_VIDEO_CNT="${EVAL_EXPECTED_VIDEO_CNT:-${FIRST_N:-0}}"
+
+SAFE_SUBDIR="$(printf '%s' "${OUT_SUBDIR}" | tr '/ ' '__')"
+EVAL_RUN_TAG="${EVAL_RUN_TAG:-vbench_${QTYPE}_${SAFE_SUBDIR}}"
+RUN_TAG="$(date +%Y%m%d_%H%M%S)"
+LOG_FILE="${LOG_DIR}/batch_custom_${SAFE_SUBDIR}_${RUN_TAG}.log"
+ln -sfn "${LOG_FILE}" "${LOG_DIR}/batch_custom_${SAFE_SUBDIR}_latest.log"
+
+nohup env \
+  QTYPE="${QTYPE}" \
+  ART_ROOT="${ART_ROOT}" \
+  CKPT_DIR="${CKPT_DIR}" \
+  PROMPT_FILE="${PROMPT_FILE}" \
+  FIRST_N="${FIRST_N}" \
+  RUN_TS="${RUN_TS}" \
+  OUT_FOLDER="${OUT_FOLDER}" \
+  OUT_SUBDIR="${OUT_SUBDIR}" \
+  GPU_COUNT="${GPU_COUNT}" \
+  CUDA_DEVICES="${CUDA_DEVICES}" \
+  RESUME="${RESUME}" \
+  INFER_ENGINE="${INFER_ENGINE}" \
+  OFFLOAD_MODEL="${OFFLOAD_MODEL}" \
+  SAMPLE_STEPS="${SAMPLE_STEPS}" \
+  ACT_QUANT_MODE="${ACT_QUANT_MODE}" \
+  FRAME_NUM="${FRAME_NUM}" \
+  NODE_SHARDS="${NODE_SHARDS}" \
+  NODE_SHARD_IDX="${NODE_SHARD_IDX}" \
+  PYTORCH_CUDA_ALLOC_CONF_VALUE="${PYTORCH_CUDA_ALLOC_CONF_VALUE}" \
+  AUTO_VBENCH="${AUTO_VBENCH}" \
+  EVAL_RESUME="${EVAL_RESUME}" \
+  EVAL_RUN_TAG="${EVAL_RUN_TAG}" \
+  EVAL_EXPECTED_VIDEO_CNT="${EVAL_EXPECTED_VIDEO_CNT}" \
+  bash "${PROJECT_ROOT}/runfiles/03_batch_custom_prompt_file_then_eval.sh" \
+  > "${LOG_FILE}" 2>&1 &
+
+PID=$!
+echo "[RUNNING] batch_custom pid=${PID}"
+echo "[LOG]     ${LOG_FILE}"
+echo "[LATEST]  tail -f ${LOG_DIR}/batch_custom_${SAFE_SUBDIR}_latest.log"
+echo "[CONFIG]  FIRST_N=${FIRST_N:-<all prompts>} OUT_FOLDER=${OUT_FOLDER:-<auto>} OUT_SUBDIR=${OUT_SUBDIR}"
+echo "[CONFIG]  RUN_TS=${RUN_TS}"
+echo "[CONFIG]  GPU_COUNT=${GPU_COUNT:-<auto>} CUDA_DEVICES=${CUDA_DEVICES:-<auto>}"
+echo "[CONFIG]  RESUME=${RESUME} INFER_ENGINE=${INFER_ENGINE} OFFLOAD_MODEL=${OFFLOAD_MODEL}"
+echo "[CONFIG]  ART_ROOT=${ART_ROOT}"
+echo "[CONFIG]  CKPT_DIR=${CKPT_DIR}"
+echo "[CONFIG]  SAMPLE_STEPS=${SAMPLE_STEPS} ACT_QUANT_MODE=${ACT_QUANT_MODE} FRAME_NUM=${FRAME_NUM}"
+echo "[CONFIG]  NODE_SHARDS=${NODE_SHARDS} NODE_SHARD_IDX=${NODE_SHARD_IDX}"
+echo "[CONFIG]  PYTORCH_CUDA_ALLOC_CONF_VALUE=${PYTORCH_CUDA_ALLOC_CONF_VALUE}"
+echo "[CONFIG]  AUTO_VBENCH=${AUTO_VBENCH} EVAL_RESUME=${EVAL_RESUME} EVAL_RUN_TAG=${EVAL_RUN_TAG}"
+echo "[PROMPTS] ${PROMPT_FILE}"
+echo "[OUTPUT]  ${OUT_DIR}/"
+if [[ "${AUTO_VBENCH}" == "1" ]]; then
+  echo "[EVAL]    ${PROJECT_ROOT}/eval_output/${EVAL_RUN_TAG}"
+  echo "[EVALLOG] tail -f ${LOG_FILE}"
+fi
